@@ -1,75 +1,71 @@
+<!DOCTYPE html>
+
 <html>
-<head>
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HTML/CSS初級アウトプット課題</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
 
-body {
-  background-color: gray;
-}
+    <body>
+        <div class="container">
+            <div class="content">
+                <header class="header">
+                    <h1>レジュメ</h1>
+                    <nav class="navigation">
+                        <ul>
+                            <li>自己紹介</li>
+                            <li>プロフィール画像</li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="mainVisual">
+                    <img src="images/1920x1280.png" alt="1920×1280の画像">
+                </div>
+                <div class="selfIntroduction">
+                    <h2>自己紹介</h2>
+                    <div class="suzuki">
+                        <div class="suzuki_text">
+                            <h3>鈴木 太郎</h3>
+                            <p>
+                                鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。<br>
+                                鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。<br>
+                                鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。鈴木太郎です。
+                            </p>
+                        </div>
+                        <figure class="suzuki_photo">
+                            <img src="images/150x150.png" alt="直径150の正円画像">
+                        </figure>
+                    </div>
+                </div>
+                
+                <div class="profile">
+                    <h2>プロフィール画像</h2>
+                    <div class="profile_content">
+                        <article>
+                            <h3>タイトルタイトル</h3>
+                            <p>テキストテキストテキスト</p>
+                            <img src="images/640x424.png" alt="640×424の画像">
+                        </article>
+                        <article>
+                            <h3>タイトルタイトル</h3>
+                            <p>テキストテキストテキスト</p>
+                            <img src="images/640x424.png" alt="640×424の画像">
+                        </article>
+                        <article>
+                            <h3>タイトルタイトル</h3>
+                            <p>テキストテキストテキスト</p>
+                            <img src="images/640x424.png" alt="640×424の画像">
+                        </article>
+                    </div>
+                </div>
 
-.top-bar {
-  height: 50px;
-  background-color: black;
-  color: white;
-  font-size: 24px;
-  text-align: center;
-  line-height: 50px;
-}
-
-.image-container {
-  width: 1920px;
-  height: 1280px;
-  margin: auto;
-  background-color: gray;
-}
-
-.image-size {
-  width: 1920px;
-  margin: auto;
-  font-size: 18px;
-}
-
-.image-size h2 {
-  margin-bottom: 10px;
-}
-
-.image-size .image {
-  width: 640px;
-  height: 424px;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.footer {
-  height: 50px;
-  background-color: gray;
-  color: black;
-  font-size: 16px;
-  text-align: center;
-}
-</style>
-</head>
-<body>
-<div class="top-bar">リスク</div>
-<div class="image-container">
-<p>1920 x 1280</p>
-</div>
-<div class="image-size">
-<h2>画像サイズ</h2>
-<div class="image">
-<p>640 x 424</p>
-</div>
-<div class="image">
-<p>640 x 424</p>
-</div>
-<div class="image">
-<p>640 x 424</p>
-</div>
-</div>
-<div class="footer">© 2020 - 2021 リスク</div>
-</body>
+                <footer class="footer">
+                    <small>&copy; 2023 taro suzuki</small>
+                </footer>
+            </div>
+        </div>
+    </body>
 </html>
